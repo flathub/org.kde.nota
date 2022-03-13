@@ -13,7 +13,6 @@
         "--device=dri",
         "--filesystem=xdg-documents"
     ],
-
     "modules": [
         {
             "name": "mauikit",
@@ -72,8 +71,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/5.24.0/kdecoration-5.24.0.tar.xz",
-                    "sha256": "c38db5bb4ed0eed0a64032aada28473d50a2d0a507be5ed30ce127c245428876",
+                    "url": "https://download.kde.org/stable/plasma/5.24.3/kdecoration-5.24.3.tar.xz",
+                    "sha256": "bbfc3d83f76dc8d2568bbe2f5395af5887eaba79094fcb901930585f8b53f636",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
@@ -89,8 +88,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/psifidotos/applet-window-buttons/archive/refs/tags/0.11.1.tar.gz",
-                    "sha256": "0588a3bba77206766549139b4bee1a08b7be7a7113e658f746709b9ee4d3017a",
+                    "url": "https://api.github.com/repos/psifidotos/applet-window-buttons/tarball/0.11.1",
+                    "sha256": "6237bc8d0693f79d3d2ce438758cb8e46a46b3687fd14c6383e9a034bca5c685",
                     "dest-filename": "applet-window-buttons.tar.gz",
                     "x-checker-data": {
                         "type": "json",
