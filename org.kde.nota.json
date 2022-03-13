@@ -91,6 +91,7 @@
                     "type": "archive",
                     "url": "https://github.com/psifidotos/applet-window-buttons/archive/refs/tags/0.11.1.tar.gz",
                     "sha256": "0588a3bba77206766549139b4bee1a08b7be7a7113e658f746709b9ee4d3017a",
+                    "dest-filename": "applet-window-buttons.tar.gz",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/psifidotos/applet-window-buttons/releases/latest",
