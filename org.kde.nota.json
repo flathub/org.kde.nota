@@ -22,7 +22,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/maui/mauikit/2.1.1/mauikit-2.1.1.tar.xz",
-                    "sha256": "4a771d0d488086391910f2e8b20307116069ba55577d18b35fdbdc4e50b9e9c5"
+                    "sha256": "4a771d0d488086391910f2e8b20307116069ba55577d18b35fdbdc4e50b9e9c5",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242845,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/maui/mauikit/$version/mauikit-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -33,7 +39,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/maui/mauikit-filebrowsing/2.1.1/mauikit-filebrowsing-2.1.1.tar.xz",
-                    "sha256": "daee19e3df3f04a701c7319d9c27d2828146fd9aed3c3897c652781286e72ccc"
+                    "sha256": "daee19e3df3f04a701c7319d9c27d2828146fd9aed3c3897c652781286e72ccc",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242845,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/maui/mauikit-filebrowsing/$version/mauikit-filebrowsing-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -44,7 +56,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/maui/mauikit-texteditor/2.1.1/mauikit-texteditor-2.1.1.tar.xz",
-                    "sha256": "d4e97a540fc365e22703d40ac9921ecfd4e896ad31459b23f0611197735c243f"
+                    "sha256": "d4e97a540fc365e22703d40ac9921ecfd4e896ad31459b23f0611197735c243f",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242845,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/maui/mauikit-texteditor/$version/mauikit-texteditor-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -55,7 +73,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/plasma/5.24.0/kdecoration-5.24.0.tar.xz",
-                    "sha256": "c38db5bb4ed0eed0a64032aada28473d50a2d0a507be5ed30ce127c245428876"
+                    "sha256": "c38db5bb4ed0eed0a64032aada28473d50a2d0a507be5ed30ce127c245428876",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8761,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/plasma/$version/kdecoration-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -66,7 +90,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/psifidotos/applet-window-buttons/archive/refs/tags/0.11.1.tar.gz",
-                    "sha256": "0588a3bba77206766549139b4bee1a08b7be7a7113e658f746709b9ee4d3017a"
+                    "sha256": "0588a3bba77206766549139b4bee1a08b7be7a7113e658f746709b9ee4d3017a",
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/psifidotos/applet-window-buttons/releases/latest",
+                        "version-query": ".tag_name | sub(\"^v\"; \"\")",
+                        "url-query": "select(.name==\"Version \" + $version) | .tarball_url"
+                    }
                 }
             ]
         },
@@ -77,7 +107,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/maui/nota/2.1.1/nota-2.1.1.tar.xz",
-                    "sha256": "d59f39179791c79f15f1caf0b50d4c79558cd2b6b9316605c40f6e0356b66bdf"
+                    "sha256": "d59f39179791c79f15f1caf0b50d4c79558cd2b6b9316605c40f6e0356b66bdf",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242845,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/maui/nota/$version/nota-$version.tar.xz"
+                    }
                 },
                 {
                     "type": "patch",
