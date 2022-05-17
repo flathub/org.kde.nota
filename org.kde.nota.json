@@ -114,10 +114,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/maui/nota/$version/nota-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-Update-caption-to-be-compatible-with-AppStream.patch"
                 }
             ]
         }
