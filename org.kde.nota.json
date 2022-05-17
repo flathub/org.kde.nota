@@ -20,8 +20,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit/2.1.1/mauikit-2.1.1.tar.xz",
-                    "sha256": "4a771d0d488086391910f2e8b20307116069ba55577d18b35fdbdc4e50b9e9c5",
+                    "url": "https://download.kde.org/stable/maui/mauikit/2.1.2/mauikit-2.1.2.tar.xz",
+                    "sha256": "a73e81b3d1631caa7ef9ca358095dc25704f5bad9851be5ea944717a4040b7d8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -37,8 +37,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit-filebrowsing/2.1.1/mauikit-filebrowsing-2.1.1.tar.xz",
-                    "sha256": "daee19e3df3f04a701c7319d9c27d2828146fd9aed3c3897c652781286e72ccc",
+                    "url": "https://download.kde.org/stable/maui/mauikit-filebrowsing/2.1.2/mauikit-filebrowsing-2.1.2.tar.xz",
+                    "sha256": "d8ef2d4d3c4d953a7465542cc4f38dea35803f755bf3cafd116ed6444896ee26",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -54,8 +54,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit-texteditor/2.1.1/mauikit-texteditor-2.1.1.tar.xz",
-                    "sha256": "d4e97a540fc365e22703d40ac9921ecfd4e896ad31459b23f0611197735c243f",
+                    "url": "https://download.kde.org/stable/maui/mauikit-texteditor/2.1.2/mauikit-texteditor-2.1.2.tar.xz",
+                    "sha256": "e18ae472ada98fd1a3a9e21ec4a02efbead1be74b697de26114640537cc6e9a7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -106,18 +106,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/nota/2.1.1/nota-2.1.1.tar.xz",
-                    "sha256": "d59f39179791c79f15f1caf0b50d4c79558cd2b6b9316605c40f6e0356b66bdf",
+                    "url": "https://download.kde.org/stable/maui/nota/2.1.2/nota-2.1.2.tar.xz",
+                    "sha256": "c75e42a0052b4114cdb2c0663ea507e492af4a2249be14241f3672e80dafe187",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/maui/nota/$version/nota-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-Update-caption-to-be-compatible-with-AppStream.patch"
                 }
             ]
         }
