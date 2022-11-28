@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit/2.2.0/mauikit-2.2.0.tar.xz",
-                    "sha256": "02f72ff76c66a5e0506d2d6b2782272f9331dbdccf1a0a3bcd6e391f287f7b15",
+                    "url": "https://download.kde.org/stable/maui/mauikit/2.2.1/mauikit-2.2.1.tar.xz",
+                    "sha256": "f02424973b9aa6362010380d9882f3465ca3b54d085190afde2c48819e689267",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -65,8 +65,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit-texteditor/2.2.0/mauikit-texteditor-2.2.0.tar.xz",
-                    "sha256": "9845c5f6b794b6025f2cb3d27e5aa1c9437e6343cd9b6e906770e2d73c5d2c74",
+                    "url": "https://download.kde.org/stable/maui/mauikit-texteditor/2.2.1/mauikit-texteditor-2.2.1.tar.xz",
+                    "sha256": "fbffe68a4c8cb785eeaa753ac5ec3c288b12d4274c3aeee920c8037a5ba5ff37",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -117,8 +117,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/nota/2.2.0/nota-2.2.0.tar.xz",
-                    "sha256": "6dd116ea3a0aca8a6ba59fa92fa7e7ce2383c23e647736e10caa46a7546628db",
+                    "url": "https://download.kde.org/stable/maui/nota/2.2.1/nota-2.2.1.tar.xz",
+                    "sha256": "487e352928587c949b34fed0d859abf938c7d6b7e9105e787f2d1b3a28e084ba",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
