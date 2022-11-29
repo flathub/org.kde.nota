@@ -1,0 +1,41 @@
+commit cfb4a95244e2059e687452ced1ba0b9af3b7b794
+Author: Camilo Higuita <chiguitar@unal.edu.co>
+Date:   Mon Dec 5 11:31:49 2022 -0500
+
+    organize appstream releases tag in desc order. bump version to 2.2.2
+
+diff --git a/org.kde.nota.metainfo.xml b/org.kde.nota.metainfo.xml
+index b1948ee..d4fb9e6 100644
+--- a/org.kde.nota.metainfo.xml
++++ b/org.kde.nota.metainfo.xml
+@@ -166,17 +166,18 @@ SPDX-License-Identifier: CC0-1.0
+   <content_rating type="oars-1.0"/>
+   <project_group>KDE</project_group>
+   <releases>
+-    <release version="1.2.2" date="2021-05-11">
+-      <url>https://nxos.org/maui/maui-1-2-2-release/</url>
+-    </release>
+-    <release version="2.1.2" date="2022-05-16">
+-      <url>https://mauikit.org/blog/maui-2-1-2-release/</url>
+-    </release>
+-    <release version="2.2.0" date="2022-08-30">
+-      <url>https://mauikit.org/blog/maui-2-2-0-release/</url>
+-    </release>
+-    <release version="2.2.1" date="2022-11-25">
+-      <url>https://mauikit.org/blog/maui-2-2-1-release/</url>
+-    </release>
++  <release version="2.2.1" date="2022-11-25">
++       <url>https://mauikit.org/blog/maui-2-2-1-release/</url>
++     </release>
++ <release version="2.2.0" date="2022-08-30">
++       <url>https://mauikit.org/blog/maui-2-2-0-release/</url>
++     </release>
++ <release version="2.1.2" date="2022-05-16">
++       <url>https://mauikit.org/blog/maui-2-1-2-release/</url>
++     </release>
++     <release version="1.2.2" date="2021-05-11">
++       <url>https://nxos.org/maui/maui-1-2-2-release/</url>
++     </release>
++     <release version="0.1.0" date="2018-09-06"/>
+   </releases>
+ </component>
