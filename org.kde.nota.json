@@ -20,8 +20,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauiman/1.0.1/mauiman-1.0.1.tar.xz",
-                    "sha256": "60400780c5d5478a1e32b3c0515dedfa1fd2f2fb0b150521cd91a9e7275a982b",
+                    "url": "https://download.kde.org/stable/maui/mauiman/1.0.2/mauiman-1.0.2.tar.xz",
+                    "sha256": "c49ea08d4b51efb4c6ab95699e837cd5482edbfbd5e45b462a5811208787726c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 315311,
@@ -37,8 +37,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit/2.2.1/mauikit-2.2.1.tar.xz",
-                    "sha256": "f02424973b9aa6362010380d9882f3465ca3b54d085190afde2c48819e689267",
+                    "url": "https://download.kde.org/stable/maui/mauikit/2.2.2/mauikit-2.2.2.tar.xz",
+                    "sha256": "0b7eb6517e933757b09ad346189bf50d9269d0ca05559bba5f4edbbe26b8d157",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -54,8 +54,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit-filebrowsing/2.2.1/mauikit-filebrowsing-2.2.1.tar.xz",
-                    "sha256": "2cf46ff4e297849acf11349015a7d81dc77c6421636ad4b1d3fba61b6e85efeb",
+                    "url": "https://download.kde.org/stable/maui/mauikit-filebrowsing/2.2.2/mauikit-filebrowsing-2.2.2.tar.xz",
+                    "sha256": "7949629e7b2ffd61f6d3f3c3f8589c0eb2c575ee2fc2e93b710f043215364036",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -71,8 +71,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit-texteditor/2.2.1/mauikit-texteditor-2.2.1.tar.xz",
-                    "sha256": "fbffe68a4c8cb785eeaa753ac5ec3c288b12d4274c3aeee920c8037a5ba5ff37",
+                    "url": "https://download.kde.org/stable/maui/mauikit-texteditor/2.2.2/mauikit-texteditor-2.2.2.tar.xz",
+                    "sha256": "8f7ddfde097b8aded0ae65bf792a3478eec48685798805850838c6647f07163d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -88,8 +88,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/5.26.5/kdecoration-5.26.5.tar.xz",
-                    "sha256": "a2fd0f06060635eec1bdec5abbd7a476b4c84dab125391248db5f322e2c7f7b7",
+                    "url": "https://download.kde.org/stable/plasma/5.27.2/kdecoration-5.27.2.tar.xz",
+                    "sha256": "b5ed3f4a3dbfbef0d20a82ae50236998f050d9b59a279ae5f1d848697a0fba75",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
@@ -123,8 +123,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/nota/2.2.1/nota-2.2.1.tar.xz",
-                    "sha256": "487e352928587c949b34fed0d859abf938c7d6b7e9105e787f2d1b3a28e084ba",
+                    "url": "https://download.kde.org/stable/maui/nota/2.2.2/nota-2.2.2.tar.xz",
+                    "sha256": "36a3280aaef73f248a85dd4e151d682fbfc91357905785f07d89bea232d1e2b0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
