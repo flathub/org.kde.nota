@@ -52,8 +52,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauiman/3.0.1/mauiman-3.0.1.tar.xz",
-                    "sha256": "f8de2ac407f42ea5874a5518cca6c823f29633511c7692146d91f568c1dacf5b",
+                    "url": "https://download.kde.org/stable/maui/mauiman/3.0.2/mauiman-3.0.2.tar.xz",
+                    "sha256": "41bb158bc082b4b261915e60213b509cb3555553d047af97a68d19cd667b1f2b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 315311,
@@ -69,8 +69,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit/3.0.1/mauikit-3.0.1.tar.xz",
-                    "sha256": "abfd89308dd3686f4fc3580b71ffa6eba536d4ad2d7726c79c62f23147d09d6e",
+                    "url": "https://download.kde.org/stable/maui/mauikit/3.0.2/mauikit-3.0.2.tar.xz",
+                    "sha256": "5a68aca611ad7bc737cfda8c0f2fc233497dfdb613b7506d7a6c78bf5c3f61a4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -86,8 +86,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit-filebrowsing/3.0.1/mauikit-filebrowsing-3.0.1.tar.xz",
-                    "sha256": "c25a2737f251d68fb7061457948ceb7c696599265fc3d6c7ae82891a2e38007d",
+                    "url": "https://download.kde.org/stable/maui/mauikit-filebrowsing/3.0.2/mauikit-filebrowsing-3.0.2.tar.xz",
+                    "sha256": "2b52db9eede66b4a0d4a08b64618e8f8801663f45b43c875fc35058af8adac0d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -103,8 +103,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit-texteditor/3.0.1/mauikit-texteditor-3.0.1.tar.xz",
-                    "sha256": "a68af2949dfeb9ae4f67076b4e7a26b85e9c45cdab54677255ef8351d8ef7f18",
+                    "url": "https://download.kde.org/stable/maui/mauikit-texteditor/3.0.2/mauikit-texteditor-3.0.2.tar.xz",
+                    "sha256": "bef2e05511c8cec2e2c8b68abf2de0c3179e129d484807d4a4650186bcdc8d27",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -120,8 +120,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/nota/3.0.1/nota-3.0.1.tar.xz",
-                    "sha256": "c158b9f6503c423d0ba644870f8a173fb36a26f0627cfa7be93dc92af9bcd6fa",
+                    "url": "https://download.kde.org/stable/maui/nota/3.0.2/nota-3.0.2.tar.xz",
+                    "sha256": "26d317ec070e50b9f58d810d1bad93e46bd7371a39b5e0d3dfc1eda6796f9886",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
