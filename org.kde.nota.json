@@ -2,7 +2,7 @@
     "id": "org.kde.nota",
     "rename-icon": "nota",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.8",
     "sdk": "org.kde.Sdk",
     "command": "nota",
     "finish-args": [
@@ -15,45 +15,13 @@
     ],
     "modules": [
         {
-            "name": "qtsystems",
-            "buildsystem": "qmake",
-            "config-opts": [
-                "CONFIG+=git_build"
-            ],
-            "build-options": {
-                "env": [
-                    "QMAKEPATH=/app/lib"
-                ]
-            },
-            "build-commands": [
-                "sed 's@\\($(INSTALL_ROOT)\\)/usr@\\1/'${FLATPAK_DEST}'@g' -i $(find . -name Makefile)"
-            ],
-            "post-install": [
-                "sed -i 's/\\([0-9]\\+\\.[0-9]\\+\\)\\.[0-9]\\+ ${_Qt5.*_FIND_VERSION_EXACT}/\\1/' ${FLATPAK_DEST}/lib/${FLATPAK_ARCH}-linux-gnu/cmake/Qt5SystemInfo*/Qt5SystemInfo*Config.cmake",
-                "sed -e 's@PATHS \"${CMAKE_CURRENT_LIST_DIR}/..\" NO_DEFAULT_PATH@PATHS \"${CMAKE_CURRENT_LIST_DIR}/..\" \"/usr/lib/${CMAKE_CXX_LIBRARY_ARCHITECTURE}/cmake/\" NO_DEFAULT_PATH@' -i ${FLATPAK_DEST}/lib/${FLATPAK_ARCH}-linux-gnu/cmake/Qt5SystemInfo*/Qt5SystemInfo*Config.cmake",
-                "sed -e '/^prefix=/ s@/usr@'${FLATPAK_DEST}'@' -i ${FLATPAK_DEST}/lib/${FLATPAK_ARCH}-linux-gnu/pkgconfig/Qt5SystemInfo*.pc",
-                "sed -e 's@\\($$QT_MODULE_BIN_BASE\\)@\\1 '${FLATPAK_DEST}'/bin @' -i ${FLATPAK_DEST}/lib/mkspecs/modules/qt_lib_systeminfo*.pri",
-                "sed -e 's@\\($$QT_MODULE_INCLUDE_BASE \\)@\\1'${FLATPAK_DEST}'/include @' -i ${FLATPAK_DEST}/lib/mkspecs/modules/qt_lib_systeminfo*.pri",
-                "sed -e 's@$$QT_MODULE_INCLUDE_BASE/@'${FLATPAK_DEST}'/include/@g' -i ${FLATPAK_DEST}/lib/mkspecs/modules/qt_lib_systeminfo*.pri",
-                "sed -e 's@$$QT_MODULE_LIB_BASE@'${FLATPAK_DEST}'/lib@g' -i ${FLATPAK_DEST}/lib/mkspecs/modules/qt_lib_systeminfo*.pri",
-                "ln -sr ${FLATPAK_DEST}/lib/${FLATPAK_ARCH}-linux-gnu/libQt*SystemInfo.so* -t ${FLATPAK_DEST}/lib/"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://github.com/qtproject/qtsystems/archive/e3332ee38d27a134cef6621fdaf36687af1b6f4a.tar.gz",
-                    "sha256": "5259cf350e5e1f755c53bcba066dd40fea7b20f4e661b0973b24ae46454a9e75"
-                }
-            ]
-        },
-        {
             "name": "mauiman",
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauiman/3.1.0/mauiman-3.1.0.tar.xz",
-                    "sha256": "5c741f1fcff75f4c69fd8ef86cd428930254222cf7f58b87cad228ba3a92c290",
+                    "url": "https://download.kde.org/stable/maui/mauiman/4.0.1/mauiman-4.0.1.tar.xz",
+                    "sha256": "b7f75237f7275186539e719f9bcc49c63cf354b78f0c85db37aba0c3d29ffb8c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 315311,
@@ -69,8 +37,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit/3.1.0/mauikit-3.1.0.tar.xz",
-                    "sha256": "bf5216cbb93767e0e54ac11f02e057a0a93173f8c10354ccf7eece568356f6ec",
+                    "url": "https://download.kde.org/stable/maui/mauikit/4.0.1/mauikit-4.0.1.tar.xz",
+                    "sha256": "7d7551a7aa790fc5846cd436255ae98e27f2541ae03869fc283df1a08325cc5d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -86,8 +54,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit-filebrowsing/3.1.0/mauikit-filebrowsing-3.1.0.tar.xz",
-                    "sha256": "77f7a531e4ed9643bf3bdcb8bd493973c1bb285f54aaaf822b024fb23075d190",
+                    "url": "https://download.kde.org/stable/maui/mauikit-filebrowsing/4.0.1/mauikit-filebrowsing-4.0.1.tar.xz",
+                    "sha256": "88282ba048090ebe0c5f7a764ebd5bc5a9c61c528cfdf91819b340bfc6002323",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -103,8 +71,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit-texteditor/3.1.0/mauikit-texteditor-3.1.0.tar.xz",
-                    "sha256": "1bde2e0f4ec05f8c3d5682f3284bbc60fb4281e0ccc1f475aece3af1b6c3523b",
+                    "url": "https://download.kde.org/stable/maui/mauikit-texteditor/4.0.1/mauikit-texteditor-4.0.1.tar.xz",
+                    "sha256": "c88dd89c4720a7dd28ca82540d35ea167f7ee9a4addf11ea0633c8715246d06c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -120,8 +88,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/nota/3.1.0/nota-3.1.0.tar.xz",
-                    "sha256": "3d76d76a8b99f1f65a1141c86ff9384fc6485887ec30cd8fc60b6683b4523d75",
+                    "url": "https://download.kde.org/stable/maui/nota/4.0.1/nota-4.0.1.tar.xz",
+                    "sha256": "b673c33f06653c97406c2118655a54c8ce4655eb889729a86672baec74931457",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
