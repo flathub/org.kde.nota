@@ -91,6 +91,7 @@
                     "url": "https://download.kde.org/stable/maui/nota/4.0.2/nota-4.0.2.tar.xz",
                     "sha256": "08213184a5995085e826571d4b99c5b7cc01c0e9b5a2b5a03007df9c081abe33",
                     "x-checker-data": {
+                        "is-main-source": true,
                         "type": "anitya",
                         "project-id": 242845,
                         "stable-only": true,
