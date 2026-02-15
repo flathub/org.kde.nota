@@ -1,0 +1,36 @@
+From b2fbb408be8ba12375e7ee1a5aaa537a740faafe Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Tue, 10 Feb 2026 02:01:07 +0300
+Subject: [PATCH] Fix appdata paper cuts
+
+---
+ org.kde.nota.metainfo.xml | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+
+diff --git a/org.kde.nota.metainfo.xml b/org.kde.nota.metainfo.xml
+index 96e9a29..7cabb2c 100644
+--- a/org.kde.nota.metainfo.xml
++++ b/org.kde.nota.metainfo.xml
+@@ -3,7 +3,7 @@
+ SPDX-FileCopyrightText: 2021 Carl Schwan <carlschwan@kde.org>
+ SPDX-License-Identifier: CC0-1.0
+ -->
+-<component type="desktop">
++<component type="desktop-application">
+   <id>org.kde.nota</id>
+   <metadata_license>CC0-1.0</metadata_license>
+   <project_license>LGPL-3.0</project_license>
+@@ -74,9 +74,8 @@ SPDX-License-Identifier: CC0-1.0
+   <summary xml:lang="x-test">xxBrowse, create and edit text filesxx</summary>
+   <summary xml:lang="zh-CN">浏览、创建和编辑文本文件</summary>
+   <summary xml:lang="zh-TW">瀏覽、建立並編輯文字檔案</summary>
+-  <developer>
++  <developer id="org.mauikit">
+     <name>maui</name>
+-    <url>https://mauikit.org/</url>
+   </developer>
+   <description>
+     <p>Nota is a simple text editor for desktop and mobile computers.</p>
+--
+libgit2 1.7.2
+
